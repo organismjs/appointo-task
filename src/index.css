@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+  background-color: rgba(249, 250, 251, 0.7);
+}
+
+.nav-wrapper {
+  background-color: #ffffff;
+  height: 85px;
+  box-shadow: 0px 2px 4px 0px rgba(96, 97, 112, 0.16);
+}
+
+.nav-wrapper img {
+  width: 228px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.react-calendar {
+  border-radius: 10px;
+  border: 1px solid #c7c9d9 !important;
+}
+
+.react-calendar__navigation {
+  border-bottom: 1px solid #f2f2f5 !important;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  color: #378760 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+}
+
+.react-calendar__tile--active {
+  border-radius: 99px !important;
+  background-color: #378760 !important;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 464px 464px;
+}
+
+.calendar-wrapper {
+  background-color: #ebebf0;
+  height: 464px;
+  border-top-left-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slots-wrapper {
+  height: 464px;
+  border-top-right-radius: 12px;
+}
+
+.footer {
+  height: 78px;
+  background-color: #378760;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
